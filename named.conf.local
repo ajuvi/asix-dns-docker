@@ -1,5 +1,5 @@
 
-zone "asix.local" {
+zone "artur.local" {
     type master;
-    file "/etc/bind/db.asix.local"; 
+    file "/etc/bind/db.artur.local"; 
 };
