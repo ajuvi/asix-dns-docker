@@ -1,10 +1,14 @@
+options {
+    directory "/var/cache/bind"; 
 
-directory "/var/cache/bind";
+    #recursion yes;
 
-//recursion no;
+    forward only; 
 
-forward only;
-forwarders{
-    8.8.8.8;
-    8.8.4.4;
+    forwarders {
+        8.8.8.8;  
+        8.8.4.4;  
+    };
+
+    allow-query { any; };
 };
