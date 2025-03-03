@@ -1,0 +1,65 @@
+$TTL 86400
+@   IN  SOA     ns1.asix.local. admin.asix.local. (
+                2025030301 ; Serial
+                3600       ; Refresh
+                1800       ; Retry
+                604800     ; Expire
+                86400 )    ; Minimum TTL
+
+; Servidores de nombres
+@    IN  NS      ns1.asix.local.
+
+; Registros A
+ns1 IN  A       127.0.0.1
+correu.houssam IN A 10.0.10.254
+IN MX 10 correu.houssam
+correu.issacb IN A 10.0.15.254
+IN MX 15 correu.issacb
+correu.daniel IN A 10.0.20.254
+IN MX 20 correu.daniel
+correu.joel IN A 10.0.25.254
+IN MX 25 correu.joel
+correu.albert IN A 10.0.30.254
+IN MX 30 correu.albert
+correu.adam IN A 10.0.35.254
+IN MX 35 correu.adam
+correu.maksym IN A 10.0.40.254
+IN MX 40 correu.maksym
+correu.eric IN A 10.0.45.254
+IN MX 45 correu.eric
+correu.biel IN A 10.0.50.254
+IN MX 50 correu.biel
+correu.nil IN A 10.0.55.254
+IN MX 55 correu.nil
+correu.david IN A 10.0.60.254
+IN MX 60 correu.david
+correu.adrian IN A 10.0.65.254
+IN MX 65 correu.adrian
+correu.vlady IN A 10.0.70.254
+IN MX 70 correu.vlady
+correu.pol IN A 10.0.75.254
+IN MX 75 correu.pol
+correu.nacay IN A 10.0.80.254
+IN MX 80 correu.nacay
+correu.alejandro IN A 10.0.85.254
+IN MX 85 correu.alejandro
+correu.carlos IN A 10.0.90.254
+IN MX 90 correu.carlos
+correu.iker IN A 10.0.95.254
+IN MX 95 correu.iker
+correu.marcel IN A 10.0.100.254
+IN MX 100 correu.marcel
+correu.pau IN A 10.0.105.254
+IN MX 105 correu.pau
+correu.aleix IN A 10.0.110.254
+IN MX 110 correu.aleix
+correu.aniol IN A 10.0.115.254
+IN MX 115 correu.aniol
+correu.marcp IN A 10.0.120.254
+IN MX 120 correu.marcp
+correu.issacs IN A 10.0.125.254
+IN MX 125 correu.issacs
+correu.erik IN A 10.0.130.254
+IN MX 130 correu.erik
+correu.marcs IN A 10.0.135.254
+IN MX 135 correu.marcs
