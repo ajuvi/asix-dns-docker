@@ -1,0 +1,10 @@
+
+directory "/var/cache/bind";
+
+//recursion no;
+
+forward only;
+forwarders{
+    8.8.8.8;
+    8.8.4.4;
+};

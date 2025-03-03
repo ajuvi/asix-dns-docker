@@ -1,0 +1,5 @@
+
+zone "asix.local" {
+    type master;
+    file "/etc/bind/zones/db.asix.local";
+};
