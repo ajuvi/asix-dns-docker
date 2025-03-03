@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo""
-echo "INSTAL·LADOR BIND9"
-echo "------------------"
+echo "INSTAL·LADOR DE BIND9"
+echo "---------------------"
 
 if ! command -v named &> /dev/null; then
     echo "Instal·lant el bind9..."
