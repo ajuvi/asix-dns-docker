@@ -10,7 +10,13 @@ $TTL 86400
 @    IN  NS      ns1.asix.local.
 
 ; Registres A
+
 ns1  IN  A       127.0.0.1
+
+artur IN A     10.0.10.254
+correu.artur IN A 10.0.10.254
+@      IN  MX 5  correu.artur.asix.local.
+
 houssam IN A     10.0.10.254
 correu.houssam IN A 10.0.10.254
 @      IN  MX 10  correu.houssam.asix.local.
