@@ -13,8 +13,8 @@ $TTL 86400
 
 ns1  IN  A       127.0.0.1
 
-artur IN A     10.0.10.254
-correu.artur IN A 10.0.10.254
+artur IN A     10.0.1.254
+correu.artur IN A 10.0.1.254
 @      IN  MX 5  correu.artur.asix.local.
 
 houssam IN A     10.0.10.254
