@@ -16,7 +16,7 @@ echo "Copiant els fitxers de configuració..."
 sudo mkdir -p /etc/bind
 sudo cp ./named.conf.options /etc/bind/named.conf.options
 sudo cp ./named.conf.local /etc/bind/named.conf.local
-sudo cp ./db.asix.local /etc/bind/db.asix.local
+sudo cp ./db.artur.local /etc/bind/db.artur.local
 sudo chown -R bind:bind /etc/bind
 
 echo "Reiniciant el bind9..."
