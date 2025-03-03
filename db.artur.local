@@ -14,6 +14,6 @@ $TTL 86400
 ns1  IN  A       127.0.0.1
 
 artur IN A     10.0.1.254
-correu.artur IN A 10.0.1.254
-@      IN  MX 10  correu.artur.asix.local.
+correu IN A 10.0.1.254
+@      IN  MX 10  correu.artur.local.
 
