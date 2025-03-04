@@ -1,5 +1,135 @@
 
 zone "artur.local" {
     type master;
-    file "/etc/bind/db.artur.local"; 
+    file "/etc/bind/zones/db.artur.local";
+};
+
+zone "houssam.local" {
+    type master;
+    file "/etc/bind/zones/db.houssam.local";
+};
+
+zone "issacb.local" {
+    type master;
+    file "/etc/bind/zones/db.issacb.local";
+};
+
+zone "daniel.local" {
+    type master;
+    file "/etc/bind/zones/db.daniel.local";
+};
+
+zone "joel.local" {
+    type master;
+    file "/etc/bind/zones/db.joel.local";
+};
+
+zone "albert.local" {
+    type master;
+    file "/etc/bind/zones/db.albert.local";
+};
+
+zone "adam.local" {
+    type master;
+    file "/etc/bind/zones/db.adam.local";
+};
+
+zone "maksym.local" {
+    type master;
+    file "/etc/bind/zones/db.maksym.local";
+};
+
+zone "eric.local" {
+    type master;
+    file "/etc/bind/zones/db.eric.local";
+};
+
+zone "biel.local" {
+    type master;
+    file "/etc/bind/zones/db.biel.local";
+};
+
+zone "nil.local" {
+    type master;
+    file "/etc/bind/zones/db.nil.local";
+};
+
+zone "david.local" {
+    type master;
+    file "/etc/bind/zones/db.david.local";
+};
+
+zone "adrian.local" {
+    type master;
+    file "/etc/bind/zones/db.adrian.local";
+};
+
+zone "vlady.local" {
+    type master;
+    file "/etc/bind/zones/db.vlady.local";
+};
+
+zone "pol.local" {
+    type master;
+    file "/etc/bind/zones/db.pol.local";
+};
+
+zone "nacay.local" {
+    type master;
+    file "/etc/bind/zones/db.nacay.local";
+};
+
+zone "alejandro.local" {
+    type master;
+    file "/etc/bind/zones/db.alejandro.local";
+};
+
+zone "carlos.local" {
+    type master;
+    file "/etc/bind/zones/db.carlos.local";
+};
+
+zone "iker.local" {
+    type master;
+    file "/etc/bind/zones/db.iker.local";
+};
+
+zone "marcel.local" {
+    type master;
+    file "/etc/bind/zones/db.marcel.local";
+};
+
+zone "pau.local" {
+    type master;
+    file "/etc/bind/zones/db.pau.local";
+};
+
+zone "aleix.local" {
+    type master;
+    file "/etc/bind/zones/db.aleix.local";
+};
+
+zone "aniol.local" {
+    type master;
+    file "/etc/bind/zones/db.aniol.local";
+};
+
+zone "marcp.local" {
+    type master;
+    file "/etc/bind/zones/db.marcp.local";
+};
+
+zone "isaacs.local" {
+    type master;
+    file "/etc/bind/zones/db.isaacs.local";
+};
+
+zone "erik.local" {
+    type master;
+    file "/etc/bind/zones/db.erik.local";
+};
+
+zone "marcs.local" {
+    type master;
+    file "/etc/bind/zones/db.marcs.local";
 };

@@ -1,0 +1,19 @@
+$TTL 86400
+@   IN  SOA     ns1.vlady.local. admin.vlady.local. (
+                2025030301 ; Serial
+                3600       ; Refresh
+                1800       ; Retry
+                604800     ; Expire
+                86400 )    ; Minimum TTL
+
+; Servidors de noms
+@    IN  NS      ns1.vlady.local.
+
+; Registres A
+
+ns1  IN  A       10.0.70.254
+
+@ IN A     10.0.70.254
+correu IN A 10.0.70.254
+       IN  MX 10  correu.vlady.local.
+
