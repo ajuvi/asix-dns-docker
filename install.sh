@@ -31,8 +31,8 @@ sudo chown -R bind:bind /etc/bind
 sleep 2
 
 echo "Reiniciant el bind9..."
-sudo systemctl restart bind9
-sudo systemctl enable bind9
+sudo systemctl restart named
+sudo systemctl enable named
 sleep 2
 
 echo "Estat del bind9..."
